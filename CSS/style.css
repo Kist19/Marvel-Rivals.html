@@ -1,20 +1,30 @@
+/*#dddfec - white
+#2d2843 - dark_blue
+#834ba9 - purple
+#eacf3b - yellow
+#868c9a - gray
+*/
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 header{
-    background-color: blue;
+    background-color: #0c0c0f;
 }
 footer{
-    background-color: blue;
+    background-color: #eacf3b;
     position: relative;
 }
 .div-index{
-    background-color: rgb(167, 118, 53);
+    background-color: #2d2843;
     margin: 15px;
 }
 .sectio-index{
     margin: 2px;
     text-align: center;
+}
+.h1{
+    font-family: Marvel Rivals;
 }
