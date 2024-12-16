@@ -3,6 +3,7 @@
 #834ba9 - purple
 #eacf3b - yellow
 #868c9a - gray
+#0c0c0f - black
 */
 
 * {
@@ -10,21 +11,71 @@
     padding: 0;
     box-sizing: border-box;
 }
-header{
-    background-color: #0c0c0f;
+
+header {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    /* Cria um layout flexível */
+    justify-content: space-between;
+    /* Espaça a logo e a navegação nas extremidades */
+    align-items: center;
+    /* Alinha a logo e a nav verticalmente ao centro */
+    padding: 20px;
+    /* Adiciona um pouco de espaçamento */
 }
-footer{
+
+footer {
     background-color: #eacf3b;
     position: relative;
 }
-.div-index{
-    background-color: #2d2843;
+
+.div-index {
     margin: 15px;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
-.sectio-index{
-    margin: 2px;
+
+.div-center {
     text-align: center;
+    margin: 15px;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
-.h1{
-    font-family: Marvel Rivals;
+
+div h1 {
+    font-family: "Bangers", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: #2d2843;
+}
+
+.logo img {
+    max-height: 50px;
+    /* Ajusta o tamanho da imagem do logo */
+}
+
+nav ul {
+    display: flex;
+    /* Coloca os itens da nav em linha */
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+    /* Adiciona espaço entre os itens do menu */
+}
+
+nav ul li:first-child {
+    margin-left: 0;
+    /* Remove a margem esquerda do primeiro item */
+}
+
+nav a {
+    font-family: "Viga", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    color: #dddfec;
 }
