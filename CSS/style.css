@@ -41,7 +41,15 @@ footer {
     margin-top: 25px;
     margin-bottom: 25px;
 }
-
+.div-flex{
+    margin: 15px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+}
 div h1 {
     font-family: "Bangers", system-ui;
     font-weight: 400;
